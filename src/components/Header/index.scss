@@ -1,0 +1,44 @@
+.header-page {
+    height: 70px;
+    line-height: 70px;
+    background-color: #363A46;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    font-size: 22px;
+    color: #fff;
+    display: flex;
+
+    .title {
+        // flex:1;
+        margin-right: 30px;
+    }
+
+    .header-menu {
+        flex: 1;
+        display: flex;
+        font-size: 12px;
+        align-items: center;
+
+        li {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.7);
+            cursor: pointer;
+            padding: 0 15px;
+            border-bottom: 2px solid transparent;
+            &:hover{
+                color: #fff;
+                border-bottom: 2px solid #1890ff;
+            }
+        }
+    }
+
+    .searchContent {
+        width: 330px;
+        margin: 0 20px;
+    }
+    .Account{
+        width: 200px;
+    }
+}

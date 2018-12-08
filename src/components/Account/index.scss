@@ -1,0 +1,35 @@
+.invest-account-page{
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    line-height: 70px;
+    .avator{
+        // margin: 0 10px;
+        img{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+    }
+    .account-content{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        margin-left: 15px;
+    }
+    .account-name{
+        height: 20px;
+        font-size: 12px;
+    }
+    .account-role{
+        font-size: 12px;
+        height: 65px;
+        span{
+            font-size: 12px;
+            color: #fff;
+        }
+    }
+    .account-job{
+        // color: red;
+    }
+}
